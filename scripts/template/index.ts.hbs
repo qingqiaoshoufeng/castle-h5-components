@@ -1,0 +1,11 @@
+import type { App } from 'vue'
+import {{properCase name}} from './index.vue'
+
+// @ts-ignore
+{{properCase name}}.install = (app: App) => {
+  // @ts-ignore
+  app.component({{properCase name}}.name, {{properCase name}})
+}
+
+export { {{properCase name}} }
+export default {{properCase name}}

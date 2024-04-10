@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "extends": "@antfu",
+  "rules": {
+    "no-console": "error",
+    "no-debugger": "error",
+    "@typescript-eslint/brace-style": "off",
+    "curly": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/prefer-ts-expect-error": "off"
+  }
+}
